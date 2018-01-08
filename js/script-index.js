@@ -18,8 +18,9 @@ function renderHighlightedRecipes(recipesArray) {
   for (var i = 0; i < recipesArray.length; i++) {
     if (recipesArray[i].highlighted === true) {
       renderRecipe(recipesArray[i])
-    }
+    } 
   }
+
   console.log('Recipes: ', recipesArray);
 }
 
@@ -30,6 +31,19 @@ function renderHighlightedRecipes(recipesArray) {
 * archivo "templates/templates-recipe.html"
 */
 function renderRecipe(recipe) {
+  $('.list-recipes').append('<a class="item-recipe" href="#">' + 
+  '<span class="attribution">' + 
+    '<span class="title-recipe">' + recipe.title +'</span>' +
+    '<span class="metadata-recipe">' +
+      '<span class="author-recipe">' + recipe.source.name + '</span>' +
+      '<span class="bookmarks-recipe">' +
+        '<span class="icon-bookmark"></span>' + 
+      '</span>' +
+    '</span>' +
+  '</span>' +
+
+  '<img src="' + recipe.img + '" />' +
+'</a>');
   console.log('Voy a pintar la receta: ', recipe);
 }
 

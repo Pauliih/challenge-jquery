@@ -9,6 +9,7 @@ var recipesArray = [
       "name": "David Lebovitz",
       "url": "http://www.davidlebovitz.com/2014/04/fromage-forte-cheese-dip-spread-recipe/"
     },
+    "img": "img/recipes/640x480/spring-fromage-fort.jpg",
     "cookTime": "15 min",
     "ingredients": [
       "8 ounces (225g) cheese pieces, hard rinds removed",
@@ -155,6 +156,7 @@ var recipesArray = [
       "name": "Food52",
       "url": "http://food52.com/recipes/24302-fatted-calf-s-meatloaf"
     },
+    "img": "img/recipes/640x480/spring-meatloaf.jpg",
     "cookTime": "1 hr 30 min",
     "ingredients": [
       "3/4 teaspoons black peppercorns",
@@ -315,6 +317,7 @@ var recipesArray = [
       "name": "Tartelette",
       "url": "http://www.tarteletteblog.com/2011/07/recipe-gluten-free-apricots-honey-panna.html"
     },
+    "img": "img/recipes/640x480/summer-apricots-honey-panna-cotta.jpg",
     "cookTime": "35 min",
     "ingredients": [
       "6 apricots",
@@ -424,6 +427,7 @@ var recipesArray = [
       "name": "Martha Stewart",
       "url": "http://www.marthastewart.com/857657/roasted-butternut-squash-lasagna"
     },
+    "img": "img/recipes/640x480/fall-roasted-butternut-squash-lasagna.jpg",
     "cookTime": "1 hr 35 min",
     "ingredients": [
       "2 large butternut squashes (about 2 pounds each), halved lengthwise and seeded",
@@ -574,6 +578,7 @@ var recipesArray = [
       "name": "NY Times",
       "url": "http://www.nytimes.com/recipes/1014424/italian-red-wine-braised-duck-with-olive-gremolata.html"
     },
+    "img": "img/recipes/640x480/winter-braised-duck.jpg",
     "cookTime": "2 hr 30 min",
     "ingredients": [
       "4 Muscovy duck legs (about 4 pounds), untrimmed",
@@ -711,6 +716,7 @@ var recipesArray = [
       "name": "David Lebovitz",
       "url": "http://www.davidlebovitz.com/2011/10/chocolate-tart-recipe/"
     },
+    "img": "img/recipes/640x480/winter-chocolate-tart.jpg",
     "cookTime": "1 hr",
     "ingredients": [
       "1 1/4 cup (250 g) sugar",
