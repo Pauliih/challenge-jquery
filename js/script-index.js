@@ -8,6 +8,9 @@ $(document).ready( function(){
   renderHighlightedRecipes(recipesArray);
 
   renderActivities(activities);
+
+  // Creo 
+  
 });
 
 
@@ -60,6 +63,18 @@ function renderActivities(activitiesArray) {
   }
   if (cont > 0) {
     $('.wrapper-message').hide();
+    for (var i = 0; i < activitiesArray.length; i++) {
+    $('.list-activities').append('<a href="#" class="item-activity">' +
+    '<span class="attribution"><span class="avatar">' +
+       '<img src="' + activities[i].userAvatar + '" class="image-avatar"></span>' +      
+     '<span class="meta">' +
+       '<span class="author">' + activities[i].userName + '</span> made ' +
+       '<span class="recipe">' + activities[i].recipeName + '</span>: ' + activities[i].text + 
+       '<span class="location">&mdash; ' + activities[i].place + '</span>' +
+     '</span> </span>' +
+     '<div class="bg-image" style="background-image: url(' + activities[i].image + ');"></div></a>'
+    );
+    }
   }
   console.log('Activities: ', activitiesArray);
 }
