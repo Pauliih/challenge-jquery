@@ -42,7 +42,7 @@ function renderRecipe(recipe) {
     '</span>' +
   '</span>' +
 
-  '<img src="' + recipe.img + '" />' +
+  '<img src="img/recipes/640x480/' + recipe.name + '.jpg" />' +
 '</a>');
   console.log('Voy a pintar la receta: ', recipe);
 }
